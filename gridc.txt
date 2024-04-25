@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#804f"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="5"
+        android:columnCount="2"
+        >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="#FFFFFFFF"
+            android:textSize="18sp"
+            android:layout_margin="5sp"
+            android:text="Button" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

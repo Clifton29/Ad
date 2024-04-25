@@ -1,0 +1,41 @@
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
+import com.denzcoskun.imageslider.models.SlideModel;
+
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        ArrayList<SlideModel> il=new ArrayList<>();
+        il.add(new SlideModel(" https://bit.ly/2YoJ77H ","The animal population decreased by 58 percent in 42 years.", ScaleTypes.CENTER_CROP));
+        il.add(new SlideModel(" https://bit.ly/2YoJ77H ","The animal population decreased by 58 percent in 42 years.",ScaleTypes.CENTER_CROP));
+
+        ImageSlider imageslider=findViewById(R.id.image_slider);
+        imageslider.setImageList(il);
+
+    }
+}
+
+ <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="1000"
+        app:iss_delay="1000"
+        app:iss_text_align="CENTER"
+        tools:ignore="MissingConstraints" />
+
+
+implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
+
+maven{
+            url=uri("https://jitpack.io");
+        }
